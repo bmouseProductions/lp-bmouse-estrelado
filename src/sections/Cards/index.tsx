@@ -10,7 +10,7 @@ export const CardSection = () => {
   return (
     <div className="p-6 container py-20  m-auto grid grid-cols-1 lg:grid-cols-2 items-center gap-14 justify-center ">
       <Card
-        data-aos="fade-right"
+        data-aos="zoom-in-down"
         data-aos-duration="1500"
         data-aos-easing="ease-in-sine"
         className=" rounded-xl bg-gradient-black text-white"
@@ -30,7 +30,7 @@ export const CardSection = () => {
         </CardFooter>
       </Card>
       <Card
-        data-aos="fade-left"
+        data-aos="zoom-in-down"
         data-aos-duration="1500"
         data-aos-easing="ease-in-sine"
         className=" rounded-xl bg-gradient-black text-white"
@@ -50,7 +50,7 @@ export const CardSection = () => {
         </CardFooter>
       </Card>
       <Card
-        data-aos="fade-right"
+        data-aos="zoom-in-down"
         data-aos-duration="1500"
         data-aos-easing="ease-in-sine"
         className=" rounded-xl   bg-gradient-black text-white"
@@ -70,7 +70,7 @@ export const CardSection = () => {
         </CardFooter>
       </Card>
       <Card
-        data-aos="fade-left"
+        data-aos="zoom-in-down"
         data-aos-duration="1500"
         data-aos-easing="ease-in-sine"
         className=" rounded-xl bg-gradient-black text-white "
