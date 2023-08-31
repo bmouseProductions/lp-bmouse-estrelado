@@ -3,17 +3,17 @@ import { ButtonChamada } from "../../components/ButtonChamada";
 
 export const Topo = () => {
   return (
-    <section className="  flex flex-col py-10 gap-10 items-center justify-center">
-      <header className="flex flex-col  gap-10 w-full">
+    <section className=" p-6 flex flex-col py-10 gap-10 items-center justify-center">
+      <header className="flex flex-col  gap-10 w-full ">
         <img src={Logo} alt="" className="w-[150px] m-auto" />
-        <hr className="border-[#5e5e5e]" />
+        <hr />
       </header>
       <h1
         className="font-bold text-white text-3xl
        lg:text-5xl lg:w-[40%] text-center lg:leading-[56px]"
       >
         Tenha um time completo de marketing{" "}
-        <span className="text-[#4BC0EE]">
+        <span className="text-gradient">
           atuando no crescimento do seu negócio.
         </span>
       </h1>

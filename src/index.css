@@ -2,8 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
 body {
   background-color: #000;
+}
+
+html {
+  font-family: "Poppins", sans-serif;
 }
 
 .bg-primary {
@@ -257,4 +263,33 @@ body {
 }
 .star-field .layer:nth-child(3) {
   animation: sf-fly-by-3 5s linear infinite;
+}
+
+.bg-gradient-black {
+  background: linear-gradient(
+    -168.39deg,
+    #ffffff -278.56%,
+    #6d6d6d -78.47%,
+    #11101d 91.61%
+  );
+}
+
+.text-gradient {
+  background: radial-gradient(
+    64.18% 64.18% at 71.16% 35.69%,
+    #def9fa 0.89%,
+    #bef3f5 17.23%,
+    #9dedf0 42.04%,
+    #7de7eb 55.12%,
+    #5ce1e6 71.54%,
+    #33bbcf 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+hr {
+  border-bottom: 1px solid !important;
+  border-image: linear-gradient(to right, transparent, #3f3e45, transparent) 1;
 }
