@@ -74,7 +74,7 @@ export default function Clientes(){
         <section className="container px-5 md:px-0 py-20 mx-auto flex flex-col items-center gap-5 text-white">
 
             <div className='flex flex-col lg:flex-row justify-center items-center gap-10'>
-                <div className='lg:max-w-[50%] '>
+                <div className='lg:max-w-[50%] ' data-aos="zoom-in-right" data-aos-duration='2000'>
                     <h1 className="text-[32px] font-bold ">
                         A BMOUSE também foi responsável pelo <span className="text-gradient">crescimento de grandes negócios.</span>
                     </h1>
@@ -84,7 +84,7 @@ export default function Clientes(){
                     </p>
                 </div>
 
-                <div>
+                <div data-aos="zoom-in-left" data-aos-duration='2000'>
                     <Player
                         autoplay
                         loop
@@ -95,7 +95,7 @@ export default function Clientes(){
                 
             </div>
 
-            <div className='w-full mt-10 flex flex-col gap-10 items-center mb-10' id='sliderClients'>
+            <div className='w-full mt-10 flex flex-col gap-10 items-center mb-10' id='sliderClients' data-aos="zoom-out-down" data-aos-duration='2000'>
                 <h1 className="text-[32px] font-bold text-center">
                     Veja alguns de nossos clientes:
                 </h1>

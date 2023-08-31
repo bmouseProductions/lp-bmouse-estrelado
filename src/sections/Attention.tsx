@@ -6,7 +6,7 @@ import attention from '../assets/attention.json'
 
 export default function Attention(){
     return (
-        <section className='container px-5 md:px-0 py-12 mx-auto flex flex-col items-center gap-5 text-white '>
+        <section className='container px-5 md:px-0 py-12 mx-auto flex flex-col items-center gap-5 text-white ' data-aos="zoom-in-up" data-aos-duration='2000'>
             <Player
                 autoplay
                 loop

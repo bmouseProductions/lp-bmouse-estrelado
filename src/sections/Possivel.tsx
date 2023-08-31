@@ -22,9 +22,9 @@ export default function Possivel(){
         },
     ]
     return (
-        <section className="container px-5 md:px-0 flex flex-col mx-auto text-white">
-            <div className="mb-10 flex flex-col lg:flex-row justify-center items-center gap-10">
-                <div className=" py-5 flex flex-col gap-3  text-lg">
+        <section className="container px-5 md:px-0 mt-14 flex flex-col mx-auto text-white">
+            <div className="mb-10 flex flex-col lg:flex-row justify-center items-center gap-10" >
+                <div className=" py-5 flex flex-col gap-3  text-lg" data-aos="fade-up-right" data-aos-duration='2000'>
                     <h2 className="text-[32px] font-bold">É POSSÍVEL CRESCER SEM A <span className="text-gradient">BMOUSE?</span></h2>
                     <p>Para replicar o que a V4 faz pela sua empresa, você precisaria de no mínimo, 4 funcionários:</p>
                     <ul className="pl-6">
@@ -37,7 +37,7 @@ export default function Possivel(){
                     <p>E ainda poupa tempo e dinheiro por não se preocupar com essa mão de obra.</p>
                 </div>
 
-                <div className="lg:w-1/3 flex flex-col items-center justify-center gap-5">
+                <div className="lg:w-1/3 flex flex-col items-center justify-center gap-5" data-aos="fade-up-left" data-aos-duration='2000'>
                     {informations.map((info, index) => (
                         <AccordionComponent
                         key={index}

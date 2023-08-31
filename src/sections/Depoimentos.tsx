@@ -24,7 +24,7 @@ export default function Depoimentos(){
     
     const slideCount = slideContent.length
     return (
-        <section className="container px-5 py-20 md:px-0 mx-auto flex flex-col items-center text-white">
+        <section className="container px-5 py-20 md:px-0 mx-auto flex flex-col items-center text-white" data-aos="flip-up" data-aos-duration='2000'>
             <h1 className="text-[32px] font-bold mb-7 text-center md:hidden">O QUE NOSSOS <br /> CLIENTES DIZEM</h1>
             <h1 className="text-[32px] font-bold mb-7 text-center hidden md:block">O QUE NOSSOS  CLIENTES DIZEM</h1>
             <div className="w-[90%] md:max-w-[600px] mb-10">
