@@ -3,12 +3,12 @@ import Image from "../../assets/teste_tom-4a1afe3a.webp";
 
 export const Formulario = () => {
   return (
-    <div className="p-6 container m-auto bg-slate-500 flex flex-col  items-center  gap-10 py-20">
+    <div className="px-5 container m-auto bg-slate-500 flex flex-col  items-center  gap-10 py-20">
       <div className="flex w-full gap-28 flex-col-reverse lg:gap-0 lg:flex-row-reverse items-center justify-between">
         <div
           className="relative"
           data-aos="fade-up"
-          data-aos-duration="3000"
+          data-aos-duration="2000"
           data-aos-anchor-placement="bottom-bottom"
         >
           <div className="bg-[#4BC0EE] gradient blur-3xl  rounded-full absolute inset-0 z-0"></div>

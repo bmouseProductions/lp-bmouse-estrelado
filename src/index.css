@@ -7,6 +7,7 @@
 /*ANIMAÇÃO BG*/
 body {
   background-color: #000;
+  overflow-x: hidden;
 }
 
 html {

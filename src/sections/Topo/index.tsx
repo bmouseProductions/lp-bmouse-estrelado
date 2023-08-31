@@ -6,7 +6,7 @@ export const Topo = () => {
     <section className=" p-6 flex flex-col py-10 gap-10 items-center justify-center">
       <header
         data-aos="zoom-in"
-        data-aos-duration="3000"
+        data-aos-duration="2000"
         className="flex flex-col  gap-10 w-full "
       >
         <img src={Logo} alt="" className="w-[150px] m-auto" />
