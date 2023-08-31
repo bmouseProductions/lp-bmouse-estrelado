@@ -24,7 +24,7 @@ export default function Possivel(){
     return (
         <section className="container px-5 md:px-0 flex flex-col mx-auto text-white">
             <div className="mb-10 flex flex-col lg:flex-row justify-center items-center gap-10">
-                <div className="lg:w-1/3 py-5 flex flex-col gap-3  text-lg">
+                <div className=" py-5 flex flex-col gap-3  text-lg">
                     <h2 className="text-[32px] font-bold">É POSSÍVEL CRESCER SEM A <span className="text-gradient">BMOUSE?</span></h2>
                     <p>Para replicar o que a V4 faz pela sua empresa, você precisaria de no mínimo, 4 funcionários:</p>
                     <ul className="pl-6">

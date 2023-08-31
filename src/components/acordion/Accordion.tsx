@@ -42,16 +42,18 @@ export function AccordionComponent({ title, text }: AccordionProps) {
         icon={<Icon id={1} open={open} />}
         className={`${
           open === 1 ? "bg-[#4bc0ee]" : "bg-[#3a3942af]"
-        } max-w-[385px] p-5  rounded`}
+        } max-w-[385px] p-5  rounded !text-white`}
       >
         <AccordionHeader
           onClick={() => handleOpen(1)}
-          className="flex justify-between"
+          className="!p-0 !border-b-0 flex justify-between !text-white"
         >
           {title}
         </AccordionHeader>
 
-        <AccordionBody>{text}</AccordionBody>
+        <AccordionBody className='!text-black font-medium'>
+          {text}
+        </AccordionBody>
       </Accordion>
     </>
   );
