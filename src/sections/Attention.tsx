@@ -14,12 +14,12 @@ export default function Attention(){
                 className='w-[50px] '
             />
 
-            <div className='lg:w-1/3 flex flex-col items-center gap-5'>
+            <div className='lg:w-[450px] flex flex-col items-center gap-5'>
                 <h1 className='text-[35px] text-center font-bold '>
                     Agora, <span className='text-red-600'>ATENÇÂO</span>
                 </h1>
                 <h1 className='text-[32px] text-center font-bold '>
-                    O que é preciso para contratar os serviços da V4 Company?
+                    O que é preciso para contratar os serviços da <span className='text-gradient'>Bmouse</span>?
                 </h1>
                 <p className='text-center text-lg'>
                     Muito simples, basta clicar no botão abaixo e preencher o formulário para que nossa equipe de especialistas entre em contato com você.

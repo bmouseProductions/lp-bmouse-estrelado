@@ -10,6 +10,7 @@ import Attention from './sections/Attention.tsx';
 import Clientes from './sections/Clientes.tsx';
 import Depoimentos from './sections/Depoimentos.tsx';
 import Possivel from './sections/Possivel.tsx';
+import Footer from './components/Footer/Footer.tsx';
 
 function App() {
 
@@ -35,6 +36,7 @@ function App() {
         <Depoimentos />
         <Clientes />
         <Attention />
+        <Footer />
       </div>
     </>
   );
