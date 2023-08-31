@@ -10,8 +10,8 @@ export const Formulario = () => {
           <img src={Image} alt="" className="object-fill z-50 relative" />
         </div>
 
-        <Card className="bg-white p-5 lg:p-10 shadow-xl shadow-[#ffffff] ">
-          <form className="  ">
+        <Card className="bg-white p-5 lg:p-10 shadow-xl shadow-[#ffffff]  lg:w-[40%]">
+          <form className="">
             <h1 className="font-bold text-black text-2xl w-[100%] text-center leading-[36px] mb-5">
               Preencha o formulário para ter um{" "}
               <span className="text-[#4BC0EE]">
