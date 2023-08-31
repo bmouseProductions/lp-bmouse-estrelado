@@ -5,12 +5,22 @@ export const Formulario = () => {
   return (
     <div className="p-6 container m-auto bg-slate-500 flex flex-col  items-center  gap-10 py-20">
       <div className="flex w-full gap-28 flex-col-reverse lg:gap-0 lg:flex-row-reverse items-center justify-between">
-        <div className="relative">
-          <div className="bg-[#4BC0EE] blur-3xl  rounded-full absolute inset-0 z-0"></div>
+        <div
+          className="relative"
+          data-aos="fade-up"
+          data-aos-duration="3000"
+          data-aos-anchor-placement="bottom-bottom"
+        >
+          <div className="bg-[#4BC0EE] gradient blur-3xl  rounded-full absolute inset-0 z-0"></div>
           <img src={Image} alt="" className="object-fill z-50 relative" />
         </div>
 
-        <Card className="bg-white p-5 lg:p-10 shadow-xl shadow-[#ffffff]  lg:w-[40%]">
+        <Card
+          className="bg-white p-5 lg:p-10 shadow-xl shadow-[#ffffff]  lg:w-[40%] "
+          data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
+        >
           <form className="">
             <h1 className="font-bold text-black text-2xl w-[100%] text-center leading-[36px] mb-5">
               Preencha o formulário para ter um{" "}
