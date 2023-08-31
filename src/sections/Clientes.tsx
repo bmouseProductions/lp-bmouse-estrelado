@@ -75,7 +75,7 @@ export default function Clientes(){
 
             <div className='flex flex-col lg:flex-row justify-center items-center gap-10'>
                 <div className='lg:max-w-[50%] ' data-aos="zoom-in-right" data-aos-duration='2000'>
-                    <h1 className="text-[32px] font-bold ">
+                    <h1 className="text-[32px] font-bold text-center">
                         A BMOUSE também foi responsável pelo <span className="text-gradient">crescimento de grandes negócios.</span>
                     </h1>
 
