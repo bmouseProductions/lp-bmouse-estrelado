@@ -1,9 +1,11 @@
 import Logo from "../../assets/whitelogo-bmouse-5ef2c2f7.svg";
+import Tom from "../../assets/teste_tom-4a1afe3a.webp";
+
 /* import { ButtonChamada } from "../../components/ButtonChamada"; */
 
 export const Topo = () => {
   return (
-    <section className=" p-6 flex flex-col py-10 gap-10 items-center justify-center">
+    <section className="flex flex-col py-10 gap-10 items-center justify-center">
       <header
         data-aos="zoom-in"
         data-aos-duration="2000"
@@ -15,14 +17,26 @@ export const Topo = () => {
       <h1
         data-aos="zoom-in"
         data-aos-duration="3000"
-        className="font-bold text-white text-3xl
-       lg:text-5xl lg:w-[40%] text-center lg:leading-[56px]"
+        className="font-bold text-white text-2xl md:text-3xl
+       lg:text-5xl 2xl:w-[70%] text-center "
       >
-        Tenha um time completo de marketing{" "}
-        <span className="text-gradient">
-          atuando no crescimento do seu negócio.
-        </span>
+        Impulsione o seu negócio com um time completo de marketing. <br />
+        <span className="text-gradient">Junte-se a nós nessa jornada!</span>
       </h1>
+      <div
+        className="relative md:w-[70%] lg:w-[70%] xl:w-[55%] aos-init aos-animate"
+        data-aos="fade-up"
+        data-aos-duration="2000"
+        data-aos-anchor-placement="bottom-bottom"
+      >
+        <div className="bg-[#fbfbfb3d] gradient blur-[100px]  rounded-full absolute inset-0 z-0"></div>
+        <img
+          src={Tom}
+          alt=""
+          className="object-fill z-50 relative mx-auto  w-full 2xl:w-[700px]"
+        />
+      </div>
+
       {/*   <ButtonChamada></ButtonChamada> */}
     </section>
   );
