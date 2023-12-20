@@ -39,13 +39,13 @@ function App() {
         {!carregado ? (
           <Loading />
         ) : (
-          <div className="relative z-50  px-5 md:px-16 lg:px-10 ">
+          <div className="relative z-50 !overflow-x-hidden px-5 md:px-16 lg:px-10 ">
             <Topo></Topo>
-            {/* <Formulario></Formulario> */}
+
             <Potencial></Potencial>
             <TimelineSection></TimelineSection>
             <Crescimento></Crescimento>
-            {/* <Sobre></Sobre> */}
+
             <CardSection></CardSection>
 
             <Possivel />

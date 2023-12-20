@@ -39,7 +39,7 @@ export default function Depoimentos() {
         O QUE <span className="text-gradient">NOSSOS CLIENTES DIZEM</span>
       </h1>
 
-      <div className="w-[100%] mb-10 px-5">
+      <div className="w-[100%] mb-10 px-7">
         <Slider slideContent={slideContent} slideCount={slideCount} />
       </div>
       <ButtonChamada text="QUERO IMPULSIONAR MEU NEGÓCIO" />

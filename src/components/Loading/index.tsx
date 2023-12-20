@@ -28,7 +28,7 @@ const Loading = () => {
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 222.77 68"
-          className="w-[200px]"
+          className="!w-[150px]"
         >
           <defs>
             <style>{`.cls-1{fill:#fff;}.cls-2{fill:#4bc0ee;}`}</style>
